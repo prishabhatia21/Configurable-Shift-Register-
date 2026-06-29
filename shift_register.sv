@@ -62,7 +62,7 @@ output logic [width-1:0] data_out);
             end
          2'b11: 
            begin 
-              data_out <= data_out;
+              data_out <= data_in;
            end 
        endcase   
     end
